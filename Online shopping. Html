@@ -1,0 +1,441 @@
+HTML FILE:
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Ecommerce website</title>
+<style>
+body{
+background-color:lightcyan ;
+}
+*{
+box-sizing:border-box;
+color:black;
+}
+nav{
+max-width: 100%;
+margin: auto;
+}
+.navigation{
+display:flex;
+align-content:center;
+justify-content;space-between;
+margin:0px;
+background-color:White ;
+padding:15px;
+border:1px solid transparent;
+box-shadow:4px 4px lightGray;
+}
+.menu{
+display:flex;
+margin:0px;
+}
+.menu li{
+position:relative;
+margin:15px;
+display:flex;
+font-size:13px;
+font-family: cursive;
+font-weight:bold;
+color:green;
+}
+a{
+  text-decoration: none;
+}
+.navigation a:hover{
+  background-color: FloralWhite;
+  color:hotpink;
+}
+.image{
+position:relative;
+background-image:url('mynlog.png');
+background-size:50px;
+height:35px;
+width:50px;
+margin:5px 0px 5px 0px;
+padding:0px;
+background-attchment:fixed;
+background-repeat:no-repeat;
+}
+.screen input{
+  float: right;
+  padding: 6px 300px 6px 10px;
+  border-radius: 5px;
+  border:1px solid;
+  border-color:grey;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 140px;
+  font-size: 17px;
+  float: right;
+  background-color:rgb(245,245,246) ;
+  box-shadow:2.5px 2.5px lightGray;
+}
+.button{
+background-color:white;
+color:black;
+border:2px solid hotpink;
+text-align:center;
+padding:2px;
+margin-top: 12px;
+margin-right: 20px;
+margin-left: 30px;
+margin-bottom:15px;
+box-shadow:2px 2px lightGray;
+}
+.image1{
+background-image:url('cart5.png');
+background-size:35px;
+background-repeat:no-repeat;
+height:45px;
+width:45px;
+margin:11px 0px 0px 10px;
+padding:0px;
+}
+.space{
+padding :0px 35px 0px 0px;
+}
+
+.container{
+background-color:white; 
+border:2px solid transparent;
+margin:auto;
+margin-top:9px;
+width:100%;
+height:2000px;
+box-shadow:4px 4px lightGray;
+}
+.head1{
+font-family: Verdana;
+font-weight: normal;
+margin-left:30px;
+margin-top:40px;
+margin-bottom:50px;
+font-size:25px;
+letter-spacing:3px;
+color:rdb(62,65,82);
+}
+.head2{
+font-family: Verdana;
+font-weight: normal;
+margin-left:30px;
+margin-top:950px;
+margin-bottom:50px;
+font-size:25px;
+letter-spacing:3px;
+color:rdb(62,65,82);
+}
+.content{
+max-width:100%;
+margin: auto;
+margin-left:30px;
+}
+.product{
+background-color:rgb(246,245,248); 
+margin:17px;
+padding:18px 0px 0px 0px;
+width:255px;
+height:400px;
+float:left;
+}
+.product img{
+border:2px solid transparent;
+border-radius:10px;
+height:250px;
+width:230px;
+margin:0px;
+box-shadow:4px 4px 3px lightGray;
+}
+.product1{
+background-color:rgb(246,245,248); 
+margin:17px;
+padding:10px 0px 0px 0px;
+width:255px;
+height:600px;
+float:left;
+text-size:100px;
+}
+.product1 img{
+border:2px solid transparent;
+border-radius:250px;
+height:230px;
+width:230px;
+margin:0px;
+box-shadow:4px 4px 3px lightGray;
+}
+.offer{
+font-family: Verdana;
+  font-weight: normal;
+  font-variant: small-caps;
+font-size:30px;
+margin-top:5px;
+color:rgb(48,48,50);
+}
+</style>
+</head>  
+<body>
+<nav>
+   <header class="navigation">
+ <div class="space"></div>
+ <a href="ecommerce.html"><div class="image"> </div></a>
+     <ul class="menu">
+        <li><a href="mens.html">MEN</a></li>
+        <li><a href="women.html">WOMEN</a></li>
+        <li><a href="#">KIDS</a></li>
+        <li><a href="#">HOME & LIVING</a></li>
+        <li><a href="#">BEAUTY</a></li>
+     </ul>
+ <div class="screen"><form><input type="text" placeholder="search for products..."></form></div>
+ <a href="#" class="button">LOGIN</a>
+ <a href="#" id="class"><div class="image1"> </div></a>
+ </header>
+</nav>  
+<nav>
+ <div class="container">
+<h1 class="head1">BIGGEST DEALS ON TOP BRANDS</h1>
+<div class="content">
+ <section align="center">
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\one.jpeg"><br><br>U.S POLO ASSN.<br><p class="offer">up to 50% off</p><br> </A> </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\two.jpeg" > <br><br> LEVIS <br><p class="offer">30-60% off</p><br></A>  </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\three.jpeg" ><br> <br> ADDIDAS<br><p class="offer">min 30% off</p><br></A>  </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\four.jpeg" > <br><br> VERO MODA <br><p class="offer">min 30% off</p><br></A>  </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\five.jpeg" > <br><br> TOMMY HILFIGER <br><p class="offer">30-50% off</p><br></A>  </section>
+ </section>
+</div>
+<div class="content">
+ <section align="center">
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\six.jpeg" > <br><br> FOREVER 21<br><p class="offer">up to 60% off</p><br></A>  </section>
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\seven.jpeg"><br> <br> GAP <br><p class="offer">30-50% off</p><br></A> </section>
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\eight.jpeg"><br> <br> NIKE<br><p class="offer">up to 50% off</p><br></A> </section>
+             <section class="product">
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\nine.jpeg"> <br><br> UNITED COLORS OF BENETTON <br><p class="offer">40-70% off</p><br></A> </section>
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\ten.jpeg" ><br> <br>PUMA <br><p class="offer">30-70% off</p><br></A> </section>
+ </section>
+ </div>
+<h1 class="head2">CATEGORIES</h1>
+<div class="content">
+ <section align="center">
+             <section class="product1"> 
+<A HREF="mens.html" ><img src="C:\Users\Admin\Desktop\clg assignments\web\1.jpeg"><br><br>Shirts<br><br><br></a><A HREF="women.html"><img src="C:\Users\Admin\Desktop\clg assignments\web\6.jpeg" > <br><br> Kurtas & KurtaSets<br> </A> </section>
+             <section class="product1"> <A HREF="mens.html" ><img src="C:\Users\Admin\Desktop\clg assignments\web\2.jpeg" > <br><br> T-Shirt <br><br><br></a><A HREF="women.html"><img src="C:\Users\Admin\Desktop\clg assignments\web\7.jpeg"><br> <br> Sarees<br></A>  </section>
+             <section class="product1"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\3.jpeg" ><br> <br> Jeans<br><br><br><img src="C:\Users\Admin\Desktop\clg assignments\web\8.jpeg"><br> <br> Dresses<br><br></A>  </section>
+             <section class="product1"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\4.jpeg" > <br><br> Shorts & Trousers <br><br><br><img src="C:\Users\Admin\Desktop\clg assignments\web\9.jpeg"> <br><br> Flats & heels<br><br></A>  </section>
+             <section class="product1"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\5.jpeg" > <br><br> Casual Shoes <br><br><br><img src="C:\Users\Admin\Desktop\clg assignments\web\10.jpeg" ><br> <br>Hand Bags <br><br></A>  </section>
+ </section>
+</div>
+</div>
+</nav>
+</body>
+</html>
+
+HTML FILE 2:
+<html>
+<head>
+<title>mens</title>
+<link rel="stylesheet" href="shop.css">
+</head>
+<body>
+<nav>
+    <header class="navigation">
+    <div class="space"></div>
+    <a href="ecommerce.html"><div class="image"> </div></a>    
+      <ul class="menu">
+        <li><a href="mens.html">MEN</a></li>
+        <li><a href="women.html">WOMEN</a></li>
+        <li><a href="#">KIDS</a></li>
+        <li><a href="#">HOME & LIVING</a></li>
+        <li><a href="#">BEAUTY</a></li>
+     </ul>
+
+    <div class="screen"><form><input type="text" placeholder="search for products..."></form></div>
+    <a href="#" class="button">LOGIN</a>
+    <a href="#" id="class"><div class="image1"> </div></a>
+    </header>
+</nav>
+
+<nav>
+   <div class="container">
+    <h1 style="font-family: Verdana;font-weight: normal;text-align:center;">MENS</h1>
+    <h1 class="head1">T-Shirts</h1>
+     <div class="content">
+      <section align="center">
+             <section class="product"> 
+
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\tone.jpeg"><br><br>T-Shirt 1<br> Rs.454<br> </A> </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\ttwo.jpeg" > <br><br> T-Shirt 2 <br>Rs.424<br></A>  </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\tthree.jpeg" ><br> <br> T-Shirt 3<br>Rs.354<br></A>  </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\tfour.jpeg" > <br><br>T-Shirt 4 <br>Rs.554<br></A>  </section>
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\tfive.jpeg" > <br><br> T-Shirt 5 <br>Rs.144<br></A>  </section>
+      </section>
+    </div>
+   </div>
+   <div class="container1">
+    <h1 class="head1">Shirts</h1>
+     <div class="content">
+      <section align="center">
+             <section class="product"> <A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\sone.jpeg" > <br><br> Shirt 1<br>Rs.744<br></A>  </section>
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\stwo.jpeg"><br> <br> Shirt 2 <br>Rs.656<br></A> </section>
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\sthree.jpeg"><br> <br> Shirt 3<br>Rs.562</A> </section>
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\sfive.jpeg"> <br><br> Shirt 4 <br>Rs.362</A> </section>
+             <section class="product"> 
+<A HREF="#"><img src="C:\Users\Admin\Desktop\clg assignments\web\sfour.jpeg" ><br> <br>Shirt 5 <br>Rs.1633<br></A> </section>
+      </section>
+     </div>
+   </div>
+</nav>
+</body>
+</html>
+
+CSS FILE:
+body{
+background-color:LightCyan ;
+}
+*{
+box-sizing:border-box;
+color:black;
+}
+nav{
+max-width: 100%;
+margin: auto;
+}
+.navigation{
+display:flex;
+align-content:center;
+justify-content:space-between;
+margin:0px;
+background-color:white  ;
+padding:15px;
+border:1px solid transparent;
+box-shadow:4px 4px lightGray;
+}
+.menu{
+display:flex;
+margin:0px;
+}
+.menu li{
+position:relative;
+margin:15px;
+display:flex;
+font-size:13px;
+font-family: cursive;
+font-weight:bold;
+color:green;
+}
+a{
+  text-decoration: none;
+}
+.navigation a:hover{
+  background-color: White;
+  color:hotpink;
+}
+.image{
+position:relative;
+background-image:url('mynlog.png');
+background-size:50px;
+height:35px;
+width:50px;
+margin:5px 0px 5px 0px;
+padding:0px;
+background-repeat:no-repeat;
+}
+.screen input{
+  float: right;
+  padding: 6px 300px 6px 10px;
+  border-radius: 5px;
+  border:1px solid;
+  border-color:grey;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 140px;
+  font-size: 17px;
+  float: right;
+  background-color:rgb(245,245,246) ;
+}
+.button{
+background-color:white;
+color:black;
+border:2px solid hotpink;
+text-align:center;
+padding:2px;
+margin-top: 12px;
+margin-right: 20px;
+margin-left: 30px;
+margin-bottom:15px;
+}
+.image1{
+background-image:url('cart5.png');
+background-size:35px;
+background-repeat:no-repeat;
+height:45px;
+width:45px;
+margin:11px 0px 0px 10px;
+padding:0px;
+}
+.space{
+padding :0px 35px 0px 0px;
+}
+div.product:hover{
+  background-color: White;
+  border:2px solid pink;
+}
+.container{
+background-color:white ; 
+border:2px solid transparent;
+margin:auto;
+margin-top:9px;
+width:100%;
+height:460px;
+box-shadow:4px 4px lightGray;
+}
+.container1{
+background-color:white ; 
+border:1px solid transparent;
+margin:auto;
+margin-top:0px;
+width:100%;
+height:480px;
+box-shadow:4px 4px lightGray;
+}
+.head1{
+font-family: Verdana;
+font-weight: normal;
+margin-left:40px;
+margin-top:10px;
+margin-bottom:2px;
+font-size:25px;
+letter-spacing:3px;
+color:rdb(62,65,82);
+}
+.content{
+max-width:100%;
+margin: auto;
+margin-left:100px;
+}
+div .product:hover{
+border:2.5px ridge gold;
+}
+.product{ 
+background-color:rgb(246,245,248);
+margin:27px;
+border:1px solid transparent;
+padding:0px;
+width:215px;
+height:330px;
+box-shadow:3px 3px 2px lightgrey;
+float:left;
+}
+.product img{
+height:265px;
+width:210px;
+margin:0px;
+}
+
+
+
+
